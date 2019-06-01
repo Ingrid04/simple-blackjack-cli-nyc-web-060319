@@ -51,6 +51,7 @@ def invalid_command
 end
 
 def runner
-
+   welcome
+   
 end
     
