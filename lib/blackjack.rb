@@ -32,12 +32,9 @@ def initial_round
 end
 
 def hit?(card_total)
-   input  = prompt_user
-   if input != "h" && input != "s"
-     invalid_command
-   elsif input == "h"
-     card = deal_card
-   end
+    prompt_user #ask the user if they want to hit or stay
+    
+
 end
 
 def invalid_command
