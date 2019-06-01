@@ -33,6 +33,7 @@ end
 
 def hit?(card_total)
     prompt_user #ask the user if they want to hit or stay
+    user_input = get_user_input
     
 
 end
