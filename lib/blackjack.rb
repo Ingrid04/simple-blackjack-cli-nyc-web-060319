@@ -38,12 +38,13 @@ def hit?(card_total)
     card_total += deal_card
     elsif user_input == "s"
     card_total 
-    
-
+    else
+    invalid_command
+  end
 end
 
 def invalid_command
-  # code invalid_command here
+          # code invalid_command here
 end
 
 def runner
