@@ -31,7 +31,7 @@ def initial_round
 end
 
 def hit?(card_total)
-    prompt_user #ask the user if they want to hit or stay
+    prompt_user    #ask the user if they want to hit or stay
     user_input = get_user_input
     if user_input == "h"
     card_total += deal_card
@@ -49,7 +49,7 @@ def invalid_command
 end
 
 def runner
-   welcome
+  welcome
   total = initial_round
   until total > 21
   total = hit?(total)
